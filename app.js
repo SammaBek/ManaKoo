@@ -1,9 +1,9 @@
-const express = require("express");
+const express = require('express');
 const app = express();
-const houseRouter = require("./ManakooRoutes");
+const houseRouter = require('./ManakooRoutes');
 
 app.use(express.json());
 
-app.use("/manakoo/houses", houseRouter);
+app.use('/manakoo/houses', houseRouter);
 
 module.exports = app;
