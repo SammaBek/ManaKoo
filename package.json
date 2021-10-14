@@ -1,0 +1,27 @@
+{
+  "name": "manakoo",
+  "version": "1.0.0",
+  "description": "Application for buying and sellin houses",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SammaBek/ManaKoo.git"
+  },
+  "author": "SammaBek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SammaBek/ManaKoo/issues"
+  },
+  "homepage": "https://github.com/SammaBek/ManaKoo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "slugify": "^1.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
